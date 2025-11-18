@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css">
+			<link rel="stylesheet" href="iframe.css"/>
+			<link rel="shortcut icon" href="asset/image/icon/smksks.png">
+            <title>SMK KESEHATAN SEKAWAN</title>
+        </head>
+        <body>
+            <!-- ini bagian navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background: url('asset/image/navbar.png');">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"> <img src="asset/image/icon/smksks.png" style="width:30px; height:30px; padding-bottom:10px; ">SMKN KESEHATAN SEKAWAN</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home"></i>
+                            Home</a>
+                            <a class="nav-link active" href="profile.html"><i class="fas fa-user"></i> Profile</a>
+                            <a class="nav-link active" href="kontak.html"><i class="fas fa-phone"></i> Kontak</a>
+							<a class="nav-link active" href="Fasilitas.html"><i class="fas fa-school"></i> Fasilitas</a>
+							<a class="nav-link active" href="organisasi.html"><i class="fas fa-user-alt"></i>Struktur Organisasi</a>
+							<a class="nav-link active" href="berita.html"><i class="fas fa-newspaper"></i>Berita</a>
+                        </div>
+                    </div>
+                </div>
+            </nav> <br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm" style="background-color: #1eaaf1;">
+                        <div class="media-body p-4 mt-2 text-center text-light">
+                            <h4 class="heading">Alamat</h4>
+                            <p>Jl. Kemandoran I, RT.1/RW.4, Grogol Utara, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12210</p>
+                        </div>
+                    </div>
+                    <div class="col-sm" style="background-color: #8cc152;">
+                        <div class="media-body p-4 mt-2 text-center text-light">
+                            <h4 class="heading">Nomor Telp</h4>
+							 <p>(021) 5366 2478</p>
+                        </div>
+                    </div>
+                    <div class="col-sm" style="background-color: #5d50c6;">
+                        <div class="media-body p-4 mt-2 text-center text-light">
+                            <h4 class="heading">Email Sekolah</h4>
+                            <p>smkkesehatansekawan@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-sm" style="background-color: #f1453d;">
+                        <div class="media-body p-4 mt-2 text-center text-light">
+                            <h4 class="heading">Website</h4>
+                            <a href="smkkesehatansekawan.sch.id">smkkesehatansekawan.sch.id</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- container menggunakan grid -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm bg-white">
+                        <div class="media-body p-4 mt-2 text-center">
+                            <h4 class="heading">Dimana SMK KESEHATAN SEKAWAN ? </h4>
+                            <img src="asset/image/icon/run.gif" alt="" style="width: 250px; height:200px;"><br><br>
+                            <div class="responsive-embed-youtube">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7932.825953821868!2d106.78202682418659!3d-6.209135182020468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x2e69f6c913f697e1%3A0x911f3bccba13fdb!2ssmk%20kesehatan%20sekawan!3m2!1d-6.211663799999999!2d106.7902673!5e0!3m2!1sid!2sid!4v1645597805425!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                              </div>     
+                        </div>
+                    </div>
+                    <div class="col-sm bg-light">
+                        <div class="media-body p-4 mt-2 text-center">
+                            <h4 class="heading">Kontak Informasi SMK KESEHATAN SEKAWAN</h4>
+                            <!-- container menggunakan grid -->
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm" style="background-color: #1eaaf1;">
+                                        <div class="media-body p-4 mt-2 text-center text-light">
+                                            <img src="asset/image/icon/admin.png" class="rounded" alt="..."
+                                            style="width: 100px; height: 100px;">
+                                            <h4 class="heading">Ibu Indah</h4>
+                                            <form method="POST" action="https://bit.ly/adminwhatsap1" target="_blank">
+											<button type="Submit" class="btn btn-success">Hubungi Ibu Indah</button>
+											</form>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm" style="background-color: #8cc152;">
+                                        <div class="media-body p-4 mt-2 text-center text-light">
+                                            <img src="asset/image/icon/admin.png" class="rounded" alt="..."
+                                            style="width: 100px; height: 100px;">
+                                            <h4 class="heading">Ibu Nisa</h4>
+                                            <form method="POST" action="https://bit.ly/adminwhatsap2" target="_blank">
+											<button type="Submit" class="btn btn-success">Hubungi Ibu Nisa</button>
+											</form>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm" style="background-color: #5d50c6;">
+                                        <div class="media-body p-4 mt-2 text-center text-light">
+                                            <img src="asset/image/icon/adminco.png" class="rounded" alt="..."
+                                            style="width: 100px; height: 100px;">
+                                            <h4 class="heading">Rivan</h4>
+                                            <form method="POST" action="https://bit.ly/adminwhatsap3" target="_blank">
+											<button type="Submit" class="btn btn-success">Hubungi Rivan</button>
+											</form>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm" style="background-color: #f1453d;">
+                                        <div class="media-body p-4 mt-2 text-center text-light">
+                                            <img src="asset/image/icon/kerja.png" class="rounded" alt="..."
+                                            style="width: 100px; height: 100px;">
+                                            <h4 class="heading">KERJA SAMA</h4>
+											<p>Perihal Kerja sama dengan sekolah dapat mengirimkan proposal (smkkesehatansekawan@gmail) </p></br>
+                                            <form method="POST" action="mailto:hallo@smkkesehatansekawan.gmail.com" target="_blank">
+											<button type="Submit" class="btn btn-info"> KIRIM EMAIL KERJASAMA</button>
+											</form>
+                                        </div>
+                                    </div>
+									<div class="col-sm" style="background-color: #f1453d;">
+                                        <div class="media-body p-4 mt-2 text-center text-light">
+                                            <img src="asset/image/icon/gmaps.png" class="rounded" alt="..."
+                                            style="width: 100px; height: 100px;">
+                                            <h4 class="heading">Maps</h4>
+											<p> Rute untuk menuju ke tempat SMK KESEHATAN SEKAWAN </p></br>
+                                            <form method="POST" action="https://bit.ly/rutesekawan" target="_blank">
+											<button type="Submit" class="btn btn-info"> KLIK UNTUK MEMBUAT RUTE </button>
+											</form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- grid footer -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm" style="background-color: #1eaaf1;">
+                        <div class="media-body p-4 mt-2 text-center text-light">
+						<div style="position:fixed; right:20px; bottom:20px;">
+							<a href="https://api.whatsapp.com/send?phone=+085710488083&text=Hallo Saya Ingin Bertanya Tentang Info Sekolah SMK KESEHATAN SEKAWAN" target='_blank'>
+							<button style="background:#32c03c; vertical-align:center;height:36px;border-radius:5px">
+							<img src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Hubungi Kami </button></a>
+							</div>
+                            <p>@COPYRIGHT SMK KESEHATAN SEKAWAN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+            </script>
+        </body>
+    </html>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css">
+			<link rel="shortcut icon" href="asset/image/icon/smksks.png">
+			<link rel="stylesheet" href="iframe.css"/>
+            <title>SMK KESEHATAN SEKAWAN</title>
+        </head>
+        <body>
+            <!-- ini bagian navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background: url('asset/image/navbar.png');">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"> <img src="asset/image/icon/smksks.png" style="width:30px; height:30px; padding-bottom:10px; ">SMK KESEHATAN SEKAWAN</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home"></i>
+                            Home</a>
+                            <a class="nav-link active" href="profile.html"><i class="fas fa-user"></i> Profile</a>
+                            <a class="nav-link active" href="kontak.html"><i class="fas fa-phone"></i> Kontak</a>
+							<a class="nav-link active" href="Fasilitas.html"><i class="fas fa-school"></i> Fasilitas</a>
+							<a class="nav-link active" href="organisasi.html"><i class="fas fa-user-alt"></i>Struktur Organisasi</a>
+							<a class="nav-link active" href="berita.html"><i class="fas fa-newspaper"></i>Berita</a>
+							<a class="nav-link active" href="http://localhost/simple-school-web/simple-school-web/indexlogin.php"><i class="fas fa-user-check"></i>Login</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- slide carousel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="asset/image/slide/sl1.gif" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="asset/image/slide/sl2.gif" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="asset/image/slide/sl3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+            <!-- container menggunakan grid -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm" style="background-color: #1eaaf1;">
+                        <div class="media-body p-4 mt-2 text-center text-light">
+                            <img src="asset/image/icon/guru.png" class="rounded" alt="..."
+                            style="width: 100px; height: 100px;">
+                            <h4 class="heading">Guru Profesional</h4>
+                           <p>Diajarkan Oleh pendidik yang profesional dan berkompeten di bidangnya</p>
+                        </div>
+                    </div>
+                    <div class="col-sm" style="background-color: #8cc152;">
+                        <div class="media-body p-4 mt-2 text-center text-light">
+                            <img src="asset/image/icon/fasilitas.png" class="rounded" alt="..."
+                            style="width: 100px; height: 100px;">
+                            <h4 class="heading">Fasilitas</h4>
+                            <p>Ruangan sudah dilengkapi dengan AC, dan terdapat akses wifi yang bisa digunakan siswa/i.
+							   Terdapat Perpustakaan, Lab Komp, Lab Praktek, Kamar Mandi, Mushola, dan UKS </p>
+                        </div>
+                    </div>
+                    <div class="col-sm" style="background-color: #5d50c6;">
+                        <div class="media-body p-4 mt-2 text-center text-light">
+                            <img src="asset/image/icon/jp.png" class="rounded" alt="..."
+                            style="width: 100px; height: 100px;">
+                            <h4 class="heading">MULOK Bahasa Jepang</h4>
+                            <p> Ketika Lulus siswa berkesempatan untuk bekerja di jepang langsung .</p>
+                        </div>
+                    </div>
+                    <div class="col-sm" style="background-color: #f1453d;">
+                        <div class="media-body p-4 mt-2 text-center text-light">
+                            <img src="asset/image/icon/Akreditasi.png" class="rounded" alt="..."
+                            style="width: 100px; height: 100px;">
+                            <h4 class="heading">Akreditasi</h4>
+                            <p>Terakreditasi B</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- container menggunakan grid -->
+             <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm bg-white">
+                        <div class="media-body p-4 mt-2 text-center">
+                            <h4 class="heading">TESTIMONI ALUMNI SMK KESEHATAN SEKAWAN</h4>
+                            <img src="asset/image/icon/testialumni.gif" alt=""><br><br>
+                            <div class="responsive-embed-youtube">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/MicYhMquWJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-sm bg-light">
+                        <div class="media-body p-4 mt-2 text-center">
+                            <h4 class="heading">DAFTAR ONLINE GAK USAH RIBET, YUK TINGGAL SCAN AJA </h4>
+                            <div class="container mt-3">
+                                <div class="d-flex justify-content-center mb-3">
+                                    <div class="p-2 bg-light">
+                                        <img src="asset/image/qr.png" alt="" class="img-thumbnail" style="width: 200px; height: 200px;"><br><br>
+                                        <p>Kami Akan Segera Menghubungi Anda !</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- grid footer -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm" style="background-color: #1eaaf1;">
+                        <div class="media-body p-4 mt-2 text-center text-light">
+						<div style="position:fixed; right:20px; bottom:20px;">
+							<a href="https://api.whatsapp.com/send?phone=+085710488083&text=Hallo Saya Ingin Bertanya Tentang Info Sekolah SMK KESEHATAN SEKAWAN" target='_blank'>
+							<button style="background:#32c03c; vertical-align:center;height:36px;border-radius:5px">
+							<img src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Hubungi Kami </button></a>
+							</div>
+                            <p>@COPYRIGHT SMK KESEHATAN SEKAWAN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+            </script>
+        </body>
+    </html>
