@@ -30,4 +30,4 @@ This repository is maintained as a web development learning and experimentation 
 
 ---
 
-**Note:** This project represents an earlier stage of my web development journey and documents my hands-on learning experience.
+**Note:** This project represents an earlier stage of my web development journey and documents my hands-on learning experience, This project was developed as a school profile website prototype in 2022. The information and institutional details displayed reflect the project's original development period and may no longer represent the school's current information.
